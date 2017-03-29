@@ -4,6 +4,33 @@ Created on Wed Mar 15 15:50:18 2017
 
 @author: dpts
 """
+import math
+
+def convert_lat(deg,minu,sec):
+    DD= float(sec)/3600 + float(minu)/60 + float(deg)
+    return DD 
+    
+def convert_lon(coord):
+    form=coord.split()
+    DD= float(form[2])/3600 + float(form[1])/60 + float(form[0])
+    return DD
+    
+def geo_to_cart(lon,lat,h):
+        """
+        Conversion de coordonées géographiques à cartésiennes
+        Arguments :
+            - lon : longitude (rad)
+            - lat : latitude (rad)
+            - h : hauteur (m)
+        """
+        a = 6378137.0      
+        e2 = 0.006694380022
+        N = a / math.sqrt(1.0 - e2*(math.sin(lat))**2)        # angles in rad
+        X = (N+h) * (math.cos(lon)) * (math.cos(lat))
+        Y = (N+h) * (math.sin(lon)) * (math.cos(lat))
+        Z = (N*(1-e2) + h) * (math.sin(lat))
+	
+        return X,Y,Z
 
 def lecture_fichier_ref(file):
     fichier=open(file,'r')
@@ -12,31 +39,23 @@ def lecture_fichier_ref(file):
     liste=[]
     for ligne in lignes:
         ligne=ligne.split()
-        print(ligne[0])
-        if i>700 :
-            break
         if ligne[0] =='+SITE/ID':
             
             j=i+2
-            
             while ((lignes[j]).split())[0]!='-SITE/ID':
-                ligne_test=lignes[j].split()
-                k=0
-                while k<len(ligne_test):
-                    
-                    try:
-                        float((ligne_test[k]))
-                        
-                    except ValueError:
-                        del ligne_test[k]
-                        k-=1
-                    k+=1
-                print(ligne_test)
-                code=ligne_test[0]
-                lon=ligne_test[2:5]
-                lat=ligne_test[5:8]
-                alti=ligne_test[8]
-                liste+=[[code,lon,lat,alti]]
+                
+                code=lignes[j][9:18]            #code de la station 
+                lon=lignes[j][44:55]            #longitute en deg min sec
+                lon_r=convert_lon(lon)          #conversion des longitudes en degres decimaux
+                lat_deg=lignes[j][56:59]        
+                lat_min=lignes[j][59:62]
+                lat_sec=lignes[j][62:67]
+                lat=convert_lat(lat_deg,lat_min,lat_sec)    #conversion des latitudes en degres decimaux
+                alti=lignes[j][69:75] 
+                X=geo_to_cart(float(lon_r),float(lat),float(alti))[0]
+                Y=geo_to_cart(float(lon_r),float(lat),float(alti))[1]
+                Z=geo_to_cart(float(lon_r),float(lat),float(alti))[2]
+                liste+=[[code,X,Y,Z]]
                 j+=1
             break
       
@@ -44,3 +63,7 @@ def lecture_fichier_ref(file):
     return liste
     
 var=lecture_fichier_ref('fichier_ref')
+
+
+
+
