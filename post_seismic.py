@@ -212,7 +212,7 @@ class seismic:
                     for j in range(len(a_log_h)):
                         sum_log+=a_log_h[j]*np.log(1+((t-ti_log_h[j])/365.25)/time_log_h[j])
                 l_h=sum_exp+sum_log
-                resultat+= [[l_e, l_n, l_h ]]
+                resultat+= [[liste[k-1][1], l_e, l_n, l_h ]]
                 a_exp_e, ti_exp_e, time_exp_e, a_log_e, ti_log_e, time_log_e = [], [], [], [], [], []
                 a_exp_n, ti_exp_n, time_exp_n, a_log_n, ti_log_n, time_log_n = [], [], [], [], [], []
                 a_exp_h, ti_exp_h, time_exp_h, a_log_h, ti_log_h, time_log_h = [], [], [], [], [], []
