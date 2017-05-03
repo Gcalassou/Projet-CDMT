@@ -110,7 +110,7 @@ class seismic:
             i+=1
         return mat
     
-    def L(self,t):
+    def L(self, t):
         """Allow to calculate the total sum of the PSD correction express in a local frame 
         at the echo t (for the moment, this script calculate this just for one componente for 
         a GPS station)
@@ -123,31 +123,104 @@ class seismic:
         """
         liste = self.lecture_solution()[0]
 #        print(liste)
-        a_exp, a_log=[],[]
-        ti_exp, ti_log = [],[]
-        t_exp, t_log = [],[]
-        for i in range(len(liste)):
-            if liste[i][1]=='7403':
-                if liste[i][0]=='AEXP_E':
-                    a_exp+=[[[liste[i][3]],[conv.convert_utc_mjd(liste[i][2])]]]
-#                    ti_exp+=[liste[i][2]]
-                if liste[i][0]=='ALOG_E':
-                    a_log+=[[[liste[i][3]],[conv.convert_utc_mjd(liste[i][2])]]]
-#                    ti_log+=[liste[i][2]]
-                if liste[i][0]=='TEXP_E':
-                    t_exp+=[liste[i][3]]
-                if liste[i][0]=='TLOG_E':
-                    t_log+=[liste[i][3]]
-        
-        print(a_exp)
-        print(t_exp)
-        sum_exp,sum_log=0,0
-        for i in range(len(a_exp)):
-            sum_exp+=a_exp[i][0]*(1-np.exp(-((t-a_exp[i][1])/365.25)/t_exp[i]))
-        for j in range(len(a_log)):
-            sum_log+=a_log[j][0]*np.log(1+((t-a_log[j][1])/365.25)/t_log[i])
-        l=sum_exp+sum_log
-        return l
+        a_exp_e, ti_exp_e, time_exp_e, a_log_e, ti_log_e, time_log_e = [], [], [], [], [], []
+        a_exp_n, ti_exp_n, time_exp_n, a_log_n, ti_log_n, time_log_n = [], [], [], [], [], []
+        a_exp_h, ti_exp_h, time_exp_h, a_log_h, ti_log_h, time_log_h = [], [], [], [], [], []
+
+        station_temp = ''
+        mat_station = np.zeros((3,5))
+        liste_station_matrice = []
+        k=0
+        resultat =[]
+        while k != len(liste)-1:
+            if station_temp == '':
+                station_temp = liste[k][1]
+            if liste[k][1]==station_temp:
+#                print(liste[i][1]+' ' +liste[i][0]+' ' + str(conv.convert_utc_mjd(liste[i][2])))
+                if liste[k][0]=='AEXP_E':
+#                    mat_station[0][0] = liste[i][3]
+#                    mat_station[0][4] = conv.convert_utc_mjd(liste[i][2])
+                    a_exp_e +=[liste[k][3]]
+                    time_exp_e +=[conv.convert_utc_mjd(liste[k][2])]
+                elif liste[k][0]=='ALOG_E':
+#                    mat_station[0][2] = liste[i][3]
+                    a_log_e +=[liste[k][3]]
+                    time_log_e +=[conv.convert_utc_mjd(liste[k][2])]
+                elif liste[k][0]=='TEXP_E':
+#                    mat_station[0][1] = liste[i][3]
+                    ti_exp_e += [liste[k][3]]
+                elif liste[k][0]=='TLOG_E':
+#                    mat_station[0][3] = liste[i][3]
+                    ti_log_e += [liste[k][3]]
+                elif liste[k][0]=='AEXP_N':
+#                    mat_station[1,0] = liste[i][3]
+#                    mat_station[1,4] = conv.convert_utc_mjd(liste[i][2])
+                    a_exp_n +=[liste[k][3]]
+                    time_exp_n +=[conv.convert_utc_mjd(liste[k][2])]
+                elif liste[k][0]=='ALOG_N':
+#                    mat_station[1,2] = liste[i][3]
+                    a_log_n +=[liste[k][3]]
+                    time_log_n +=[conv.convert_utc_mjd(liste[k][2])]
+                elif liste[k][0]=='TEXP_N':
+#                    mat_station[1,1] = liste[i][3]
+                    ti_exp_n += [liste[k][3]]
+                elif liste[k][0]=='TLOG_N':
+#                    mat_station[1,3] = liste[i][3]
+                    ti_log_n += [liste[k][3]]
+                elif liste[k][0]=='AEXP_H':
+#                    mat_station[2,0] = liste[i][3]
+#                    mat_station[2,4] = conv.convert_utc_mjd(liste[i][2])
+                    a_exp_h +=[liste[k][3]]
+                    time_exp_h +=[conv.convert_utc_mjd(liste[k][2])]
+                elif liste[k][0]=='ALOG_H':
+#                    mat_station[2,2] = liste[i][3]
+                    a_log_h +=[liste[k][3]]
+                    time_log_h +=[conv.convert_utc_mjd(liste[k][2])]
+                elif liste[k][0]=='TEXP_H':
+#                    mat_station[2,1] = liste[i][3]
+                    ti_exp_h += [liste[k][3]]
+                elif liste[k][0]=='TLOG_H':
+#                    mat_station[2,3] = liste[i][3]
+                    ti_log_h += [liste[k][3]]
+            else:
+                liste_station_matrice +=[[liste[k-1][1], mat_station]]
+#                mat_station = np.zeros((3,5))
+                sum_exp,sum_log=0,0
+                if len(a_exp_e) != 0:
+                    for i in range(len(a_exp_e)):
+                        sum_exp+=a_exp_e[i]*(1-np.exp(-((t-ti_exp_e[i])/365.25)/time_exp_e[i]))
+                if len(a_log_e) != 0:                    
+                    for j in range(len(a_log_e)):
+                        sum_log+=a_log_e[j]*np.log(1+((t-ti_log_e[j])/365.25)/time_log_e[j])
+                l_e=sum_exp+sum_log
+                
+                sum_exp,sum_log=0,0
+                if len(a_exp_n) != 0:  
+                    for i in range(len(a_exp_n)):
+                        sum_exp+=a_exp_n[i]*(1-np.exp(-((t-ti_exp_n[i])/365.25)/time_exp_n[i]))
+                if len(a_log_n) != 0:  
+                    print(len(a_log_n), len(ti_log_n), len(time_log_n))
+                    for j in range(len(a_log_n)):
+                        sum_log+=a_log_n[j]*np.log(1+((t-ti_log_n[j])/365.25)/time_log_n[j])
+                l_n=sum_exp+sum_log
+                
+                sum_exp,sum_log=0,0
+                if len(a_exp_h) != 0:
+                    for i in range(len(a_exp_h)):
+                        sum_exp+=a_exp_h[i]*(1-np.exp(-((t-ti_exp_h[i])/365.25)/time_exp_h[i]))
+                if len(a_log_h) != 0:
+                    for j in range(len(a_log_h)):
+                        sum_log+=a_log_h[j]*np.log(1+((t-ti_log_h[j])/365.25)/time_log_h[j])
+                l_h=sum_exp+sum_log
+                resultat+= [[l_e, l_n, l_h ]]
+                a_exp_e, ti_exp_e, time_exp_e, a_log_e, ti_log_e, time_log_e = [], [], [], [], [], []
+                a_exp_n, ti_exp_n, time_exp_n, a_log_n, ti_log_n, time_log_n = [], [], [], [], [], []
+                a_exp_h, ti_exp_h, time_exp_h, a_log_h, ti_log_h, time_log_h = [], [], [], [], [], []
+                station_temp = liste[k][1]
+                k -= 1
+
+            k+=1
+        return resultat
         
     def tracer_deformation(self):
         nt  = Time.now()
@@ -163,11 +236,11 @@ class seismic:
     
 if __name__ == '__main__':
     s = seismic()
-    identification = s.lecture_ID()
-    solution = s.lecture_solution()
-    matrice = s.lecture_matrice_cov()
-##    l=s.L()
-    s.tracer_deformation()
+#    identification = s.lecture_ID()
+#    solution = s.lecture_solution()
+#    matrice = s.lecture_matrice_cov()
+    l=s.L(55720)
+#    s.tracer_deformation()
 #    print (ID)
 #    print(solution)
 #    print(matrice)
