@@ -122,22 +122,22 @@ connec = Ftp('cddis.gsfc.nasa.gov',['reports','slrlog'],'','')
 fichier = open('log_names.txt','r')
 
 #construction d'une liste de noms de fichiers pour en télécharger plusieurs à la fois
-liste = fichier.readlines()
-
-
-
+#liste = fichier.readlines()
+#
+#
+#
 ##formatage des données
 #for i in range(len(liste)) :
 #    liste[i] = liste[i].rstrip('\n')  #suppression des \n
 #    liste[i] = liste[i].rstrip('\t')  #suppression des \t
-#
-##connec.connexion_changeDir_download('ajaf_20080929.log','/home/dpts/Bureau/ProjetDev/Logs')
+
+#connec.connexion_changeDir_download('godl_20161207.log','/home/dpts/Bureau/ProjetDev/Logs')
 #
 #for i in range(0,len(liste)):
 #    print(i)
 #    ftpfile = (liste[i])
 #    connec.connexion_changeDir_download(ftpfile,'/home/dpts/Bureau/ProjetDev/Logs')
-#    
+    
 #ftpfile = liste[1]
 #print(ftpfile)
 #connec.connexion_changeDir_download(ftpfile)
