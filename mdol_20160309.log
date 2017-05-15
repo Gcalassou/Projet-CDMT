@@ -1,0 +1,819 @@
+      ILRS Site and System Information Form
+      International Laser Ranging Service
+
+ 0.   Form
+
+      Prepared by (Full Name)    : Randall L. Ricklefs
+      Preparer E-mail            : ricklefs@csr.utexas.edu
+      Date Prepared              : 2016/03/09
+      Report Type                : UPDATE
+      Format Version             : 1.0
+
+
+ 1.   Identification of the Ranging System Reference Point (SRP)
+
+      Site Name                  : McDonald Observatory / Mt. Fowlkes
+      IERS DOMES Number          : 40442M006
+      CDP Pad ID                 : 7080
+      Subnetwork                 : NASA
+      Description                : MONUMENT
+      Monument Description       : Standard Brass Disk
+      Monument Inscription       : 7080 1988 NASA GSFC Greenbelt, MD
+      Mark Description           : punched dimple
+      Date Installed             : 1988-01-01
+      Date Removed               : (n/a)
+      Geologic Characteristic    : Tertiary igneous rocks
+      Additional Information     : Tertiary igneous rocks predominately
+                                 : found on the surface. The influence of
+                                 : topography on soil formation is
+                                 : pronounced. Due to extensive erosion,
+                                 : the soils of hills and mountains are 
+                                 : shallow, whereas the soils of valleys
+                                 : and plains are deep.
+
+
+ 2.   Site Location Information
+
+      City or Town               : McDonald Observatory (near Fort Davis)
+      State or Province          : Texas
+      Country                    : USA
+      Tectonic Plate             : North American
+      Approximate Position
+        X coordinate          [m]: -1330021.0
+        Y coordinate          [m]: -5328401.8
+        Z coordinate          [m]: 3236480.7
+        Latitude            [deg]: 30.6802 N
+        Longitude           [deg]: 255.9848 E
+        Elevation             [m]: 2006.2210
+      Additional Information     : (multiple lines)
+
+
+ 3.   General System Information
+
+ 3.01 System Name                : McDonald Laser Ranging System (MLRS)
+      4-Character Code           : MDOL
+      CDP System Number          : 24
+      CDP Occupation Number      : 19
+      Eccentricity to SRP (if Not Identical With SRP)
+        North                [mm]: -0.004 +- 0.002
+        East                 [mm]: -0.005 +- 0.002
+        Up                   [mm]: 1.756 +- 0.002
+        Date Measured            : 1988-02-10
+      Date Installed             : 1988-02-10
+      Date Removed               : (yyyy-mm-dd)
+      Additional Information     : (multiple lines)
+
+ 3.02 System Name                : McDonald Laser Ranging System (MLRS)
+      4-Character Code           : MDOL
+      CDP System Number          : 24
+      CDP Occupation Number      : 19
+      Eccentricity to SRP (if Not Identical With SRP)
+        North                 [m]: -0.003 +- 0.002
+        East                  [m]: -0.006 +- 0.002
+        Up                    [m]:  1.763 +- 0.002 
+        Date Measured            : 1993-01-29
+      Date Installed             : 1988-02-10
+      Date Removed               : (yyyy-mm-dd)
+      Additional Information     : (multiple lines)
+
+ 3.03 System Name                : McDonald Laser Ranging Station (MLRS)
+      4-Character Code           : MDOL
+      CDP System Number          : 24
+      CDP Occupation Number      : 19
+      Eccentricity to SRP (if Not Identical With SRP)
+        North                 [m]: -0.003 +- 0.002
+        East                  [m]: -0.006 +- 0.002
+        Up                    [m]:  1.763 +- 0.002 
+        Date Measured            : 1993-01-29
+      Date Installed             : 1988-02-10
+      Date Removed               : (yyyy-mm-dd)
+      Additional Information     : (multiple lines)
+
+ 4.   Telescope Information
+
+ 4.01 Receiving Telescope Type   : Coude
+        Aperture              [m]: 0.75
+        Mount                    : XY
+      Xmitting Telescope Type    : Coude
+        Aperture              [m]: 0.75
+      Tracking Camera Type       : TV
+        Model                    : WV-1550
+        Manufacturer             : Panasonic
+        Field of View       [deg]: 0.025
+        Minimum Magnitude   [mag]: 7
+      Transmit/Receive Path      : COMMON COUDE
+      Transmit/Receive Switch    : rotating disk
+      Max Slew Rate Az    [deg/s]: 3 
+      Max Slew Rate El    [deg/s]: 3 
+      Max Used Tracking Rate Az  : 0.5416
+      Max Used Tracking Rate El  : 0.5416
+      Telescope Shelter          : hinged, motorized hood
+      Daylight Filter Type       : Spectral filter
+      Dayl. Filt. Bandwidth  [nm]: 0.3, 0.6, 0.10
+      Adjustable Attenuation     : none
+      Transmit Efficiency        : < 0.53
+      Receive Efficiency         : < 0.38
+      Date Installed             : 1981-08-03
+      Date Removed               : 2015-07-13
+      Additional Information     : X and y slew rates reported as AZ, EL,
+                                 : respectively. Telescope xmit and
+                                 : receive efficiencies were not measured.
+ 4.02 Receiving Telescope Type   : Coude
+        Aperture              [m]: 0.75
+        Mount                    : XY
+      Xmitting Telescope Type    : Coude
+        Aperture              [m]: 0.75
+      Tracking Camera Type       : TV
+        Model                    : WV-1550
+        Manufacturer             : Panasonic
+        Field of View       [deg]: 0.025
+        Minimum Magnitude   [mag]: 7
+      Tracking Camera #2 Type    : TV
+        Model                    : SI320KITLLC
+        Manufacturer             : Quantum Imaging
+        Field of View       [deg]: 0.025
+        Minimum Magnitude   [mag]: 12
+      Transmit/Receive Path      : COMMON COUDE
+      Transmit/Receive Switch    : rotating disk
+      Max Slew Rate Az    [deg/s]: 3 
+      Max Slew Rate El    [deg/s]: 3 
+      Max Used Tracking Rate Az  : 0.5416
+      Max Used Tracking Rate El  : 0.5416
+      Telescope Shelter          : hinged, motorized hood
+      Daylight Filter Type       : Spectral filter
+      Dayl. Filt. Bandwidth  [nm]: 0.3, 0.6, 0.10
+      Adjustable Attenuation     : none
+      Transmit Efficiency        : < 0.53
+      Receive Efficiency         : < 0.38
+      Date Installed             : 2015-07-13
+      Date Removed               : (yyyy-mm-dd)
+      Additional Information     : X and y slew rates reported as AZ, EL,
+                                 : respectively. Telescope xmit and
+                                 : receive efficiencies were not measured.
+                                 : 2 tracking cameras: normal and faint object
+
+ 5.   Laser System Information
+
+ 5.01 Laser Type                 : ND:YAG
+      Number of Amplifiers       : 2
+      Primary Wavelength     [nm]: 1064
+      Primary Maximum Energy [mJ]: not used for laser ranging
+      Secondary Wavelength   [nm]: 532
+      Secondary Max. Energy  [mJ]: 1500
+      Xmit Energy Adjustable     : YES
+      Pulse Width (FWHM)     [ps]: 200
+      Max. Repetition Rate   [Hz]: 10
+      Fullw. Beam Divergence  ["]: 20
+      Final Beam Diameter     [m]: 0.75
+      Eyesafe                    : NO
+      Eyesafe Standard           : ANSI 136.1
+      Date Installed             : 1985-02-01
+      Date Removed               : 2003-08-05
+      Additional Information     : divergence is adjustable
+
+ 5.02 Laser Type                 : ND:YAG
+      Number of Amplifiers       : 2
+      Primary Wavelength     [nm]: 1064
+      Primary Maximum Energy [mJ]: not used for laser ranging
+      Secondary Wavelength   [nm]: 532
+      Secondary Max. Energy  [mJ]: 1500
+      Xmit Energy Adjustable     : YES
+      Pulse Width (FWHM)     [ps]: 200
+      Max. Repetition Rate   [Hz]: 10
+      Fullw. Beam Divergence  ["]: 0-20
+      Final Beam Diameter     [m]: 0.75
+      Eyesafe                    : NO
+      Eyesafe Standard           : ANSI 136.1
+      Date Installed             : 2003-08-05
+      Date Removed               : 2010-11-05
+      Additional Information     : divergence is adjustable.
+                                 : Pulse slicer converted from krytrons to
+                                 : avalanche diodes.
+
+ 5.03 Laser Type                 : ND:YAG
+      Number of Amplifiers       : 2
+      Primary Wavelength     [nm]: 1064
+      Primary Maximum Energy [mJ]: not used for laser ranging
+      Secondary Wavelength   [nm]: 532
+      Secondary Max. Energy  [mJ]: 150
+      Xmit Energy Adjustable     : YES
+      Pulse Width (FWHM)     [ps]: 200
+      Max. Repetition Rate   [Hz]: 10
+      Fullw. Beam Divergence  ["]: 0-20
+      Final Beam Diameter     [m]: 0.75
+      Eyesafe                    : NO
+      Eyesafe Standard           : ANSI 136.1
+      Date Installed             : 2011-11-05
+      Date Removed               : 2015-07-13
+      Additional Information     : Correction to previous entries. Energy
+                                 : shown is now energy/pulse, not /second. 
+                                 : Note - laser average power is 1.5W.
+
+ 5.04 Laser Type                 : ND:YAG
+      Number of Amplifiers       : 1
+      Primary Wavelength     [nm]: 1064
+      Primary Maximum Energy [mJ]: not used for laser ranging
+      Secondary Wavelength   [nm]: 532
+      Secondary Max. Energy  [mJ]: 80
+      Xmit Energy Adjustable     : YES
+      Pulse Width (FWHM)     [ps]: 150
+      Max. Repetition Rate   [Hz]: 10
+      Fullw. Beam Divergence  ["]: 0.4-50
+      Final Beam Diameter     [m]: 0.75
+      Eyesafe                    : NO
+      Eyesafe Standard           : ANSI 136.1
+      Date Installed             : 2015-07-13
+      Date Removed               : (yyyy-mm-dd)
+      Additional Information     : Old laser upgraded to level of rest of NASA
+                                 : network lasers.
+                                 : Currently used at 80mJ and 10-50" beam 
+                                 : divergence.
+
+ 6.   Receiver System
+
+ 6.01.01 Primary Chain
+         Wavelength          [nm]: 532
+         Detector Type           : MCP
+           Manufacturer          : ITT
+           Model                 : F4129F
+           Quantum Efficiency [%]: 11
+           Nominal Gain          : 1E6
+           Rise Time         [ps]: 350
+           Jitter (Single PE)[ps]: 100
+           Field of View      ["]: 6,10,12,20,35, selectable
+           Date Installed        : 1990-09-25
+           Date Removed          : (yyyy-mm-dd)
+         Signal Processing       : CFD
+           Manufacturer          : Tennelec
+           Model                 : 454
+           Date Installed        : 1986-10-26
+           Date Removed          : (yyyy-mm-dd)
+           Amplitude Measurement : NO
+           Return-rate Controlled: YES
+           Mode of Operation     : SINGLE to multi photon
+         Time of Flight Observ.  : EVENT
+           Manufacturer          : EG&G
+           Model                 : TD811
+           Resolution        [ps]: 50 psec/channel, 4 channels
+           Precision         [ps]: ~30
+           Date Installed        : 1990-06-06
+           Date Removed          : (yyyy-mm-dd)
+         Additional Information  : The TD811, CMOS Clock, and Timer B
+                                 : are used in conjunction.
+                                 : Used primarily for artificial satellites
+
+ 6.02.02 Secondary Chain
+         Wavelength          [nm]: 532
+         Detector Type           : PMT
+           Manufacturer          : Varian
+           Model                 : VPM152S.921
+           Quantum Efficiency [%]: 29
+           Nominal Gain          : unknown
+           Rise Time         [ps]: unknown
+           Jitter (Single PE)[ps]: unknown
+           Field of View      ["]: 6,10,12,20,35, selectable
+           Date Installed        : 1985-10-dd
+           Date Removed          : 2007-05-26
+         Detector Type           : PMT
+           Manufacturer          : Hamamatsu
+           Model                 : R5916U-74 with Avantek amp UTC12-102M
+           Quantum Efficiency [%]: 29
+           Nominal Gain          : unknown
+           Rise Time         [ps]: unknown
+           Jitter (Single PE)[ps]: unknown
+           Field of View      ["]: 6,10,12,20,35, selectable
+           Date Installed        : 2007-05-26
+           Date Removed          : 2013-12-14
+         Signal Processing       : CFD
+           Manufacturer          : Tennelec
+           Model                 : 454
+           Date Installed        : 1986-10-26
+           Date Removed          : (yyyy-mm-dd)
+           Amplitude Measurement : NO
+           Return-rate Controlled: YES
+           Mode of Operation     : SINGLE
+         Time of Flight Observ.  : EVENT
+           Manufacturer          : EG&G
+           Model                 : TD811
+           Resolution        [ps]: 50 psec/channel, 4 channels
+           Precision         [ps]: ~30
+           Date Installed        : 1990-06-06
+           Date Removed          : (yyyy-mm-dd)
+         Additional Information  : The TD811, CMOS Clock, and Timer B
+                                 : are used in conjunction. This chain 
+                                 : used primarily for lunar and
+                                 : some high satellites. No longer functional.
+
+
+ 7.   Tracking Capabilities
+
+ 7.01 Satellites
+        Very Low Alt (<400 km)   : NO
+        Low Altitude (400-2000)  : YES
+        Lageos                   : YES
+        GLONASS                  : YES
+        Etalon                   : YES
+        GPS                      : YES
+        Moon                     : YES
+      Avge Pass Switch Time   [s]: 2
+      Average values for Lageos
+        Single Shot RMS      [mm]: 13
+        # of Obs per NP          : 85
+        Use of Semi-trains       : NO
+        # of Semi-train Tracks   : N.A.
+      Range Gate Width       [ns]: 50-20,000
+      Beam Pointing Accuracy  ["]: 10
+      Angle Encoder Resolution["]: 0.1 incremental; 0.6 absolute
+      Min. Tracking Elev.   [deg]: 20; higher in north due to van
+      Operation
+        Months per Year          : 12
+        Days per Week            : 7
+        Hours per Day            : 24
+        Staff per Shift          : one
+        System Shared With       : nothing
+        Time Allocated to SLR [%]: 100
+        Remotely Controllable    : NO
+      Date First Applicable      : 1981-10-01 00:00 UT
+      Date Last Applicable       : 2015-08-31
+      Additional Information     : incremental encoder used for servo system and
+                                 : lunar tracking; absolutes used for slr/stars
+                                 : Change to one-person crews, 24 hours a day, 
+                                 : 7 days a week in April 1999.
+                                 : Down-sized to two one-person crews in March 2004.
+ 
+7.01 Satellites
+        Very Low Alt (<400 km)   : NO
+        Low Altitude (400-2000)  : YES
+        Lageos                   : YES
+        GLONASS                  : YES
+        Etalon                   : YES
+        GPS                      : YES
+        Moon                     : YES
+      Avge Pass Switch Time   [s]: 2
+      Average values for Lageos
+        Single Shot RMS      [mm]: 13
+        # of Obs per NP          : 85
+        Use of Semi-trains       : NO
+        # of Semi-train Tracks   : N.A.
+      Range Gate Width       [ns]: 50-20,000
+      Beam Pointing Accuracy  ["]: 10
+      Angle Encoder Resolution["]: 0.1 incremental; 0.6 absolute
+      Min. Tracking Elev.   [deg]: 20; higher in north due to van
+      Operation
+        Months per Year          : 12
+        Days per Week            : 7
+        Hours per Day            : 8-10
+        Staff per Shift          : one
+        System Shared With       : nothing
+        Time Allocated to SLR [%]: 100
+        Remotely Controllable    : NO
+      Date First Applicable      : 1981-10-01 00:00 UT
+      Date Last Applicable       : 2015-08-31
+      Additional Information     : Yoke incremental and absolute encoder replaced
+                                 : with incremental tape encoder 2004.
+                                 : Down-sized to one shift September 2015. 
+                                 : Lost lunar capability in 2013, due to failure of detector.
+ 
+ 8.   Calibration
+
+ 8.01 Calibration Type           : REALTIME
+      Target Location            : INTERNAL
+      Target Type                : CORNER CUBE
+      Target Structure           : telescope spider
+      Target Distance         [m]: 2.8608
+        Date Measured            : 1990-01-01
+        Accuracy (mm)        [mm]: 2mm
+        Verification             : 1993 collocation
+      Return-rate Controlled     : YES
+      Mode of Operation          : multi photon; single for moon
+      Average Cal Interval  [min]: length of pass
+      Single Shot RMS        [mm]: 8.5
+      Edit Criterion 1st Chain   : Iterative 3.0 sigma
+      Edit Criterion 2nd Chain   : Iterative 3.0 sigma
+      Application of Cal Data    : AVERAGE
+      Date Installed             : 1990-04-04
+      Date Removed               : (yyyy-mm-dd)
+
+ 9.   Time and Frequency Standards
+
+ 9.01.01 Frequency Standard Type : QUARTZ
+         Model                   : 1210D-01
+         Manufacturer            : Austron
+         Short Term Stab.  [e-12]: <10
+         Long Term Stab.   [e-12]: <10
+         Time Reference          : GPS
+         Synchronization         : manual
+         Epoch Accuracy      [ns]: 100
+         Date Installed          : 1997-08-26
+         Date Removed            : 2009-07-02
+         Additional Information  : (multiple lines)
+
+ 9.01.02 Frequency Standard Type : Cesium
+         Model                   : 4310
+         Manufacturer            : Symmetricom
+         Short Term Stab.  [e-12]: <10
+         Long Term Stab.   [e-12]: <10
+         Time Reference          : cesium
+         Synchronization         : manual
+         Epoch Accuracy      [ns]: 1
+         Date Installed          : 2009-07-02
+         Date Removed            : (yyyy-mm-dd)
+         Additional Information  : Austron quartz is backup
+
+ 9.02.01 GPS Timing Rcvr Model   : TAC
+         Manufacturer            : Totally Accurate Clock
+         Date Installed          : 1994-09-01
+         Date Removed            : 2010-08
+         Additional Information  : Also have a second TAC
+                                 : installed 1999-04-01
+
+ 9.02.02 GPS Timing Rcvr Model   : CNS
+         Model                   : CNSC01
+         Manufacturer            : CNS
+         Date Installed          : 2010-08
+         Date Removed            : (yyyy-mm-dd)
+         Additional Information  : Old TAC reinstalled after repair (January 
+                                 : 2011), but was very removed after it failed 
+                                 : again (also during January). 
+                                 : Also have second CNSC01 as backup
+
+10.   Preprocessing Information
+
+10.01 On-site NP Generation      : YES
+      Data Screening             : IRV/lunar ephemeris+POLYNOMIAL
+      Edit Criterion 1st Chain   : ITERATIVE 3.0
+      Edit Criterion 2nd Chain   : ITERATIVE 3.0
+      Upload interval            : HOURLY
+      Date First Applicable      : 1991-04-10 00:00
+      Date Last  Applicable      : 2005-04-18 00:00
+      Additional Information     : (multiple lines)
+10.02 On-site NP Generation      : YES
+      Data Screening             : CPF/lunar ephemeris+POLYNOMIAL
+      Edit Criterion 1st Chain   : ITERATIVE 3.0
+      Edit Criterion 2nd Chain   : ITERATIVE 3.0
+      Upload interval            : HOURLY
+      Date First Applicable      : 2005-04-18 00:00
+      Date Last  Applicable      : (yyyy-mm-dd hh:mm UT)
+      Additional Information     : (multiple lines)
+
+
+11.   Aircraft Detection
+
+11.01 Detection Type             : RADAR
+      Date Installed             : 1999-03-27
+      Date Removed               : 2016-07-13
+      Additional Information     : (multiple lines)
+
+11.02 Detection Type             : RADAR
+      Date Installed             : 2016-07-13
+      Date Removed               : (yyyy-mm-dd)
+      Additional Information     : Replacement unit installed.
+                                   Requires periodic measurements to
+                                   targets to verify system functionality.
+
+12.   Meteorological Instrumentation
+
+12.01.01 Pressure Sensor Model   : 270
+         Manufacturer            : Setra
+         Recording Interval      : four times per hour
+         Accuracy          [mbar]: 0.3
+         Height Diff to SRP   [m]: 0
+         Date Installed          : 1991-07-01
+         Calibration Interval    : as needed
+         Date Removed            : 2003-05-16 20:00 UT
+         Additional Information  : (multiple lines)
+
+12.01.02 Pressure Sensor Model   : Met3
+         Manufacturer            : Paroscientific
+         Recording Interval      : four times per hour
+         Accuracy          [mbar]: 0.1
+         Height Diff to SRP   [m]: 0
+         Date Installed          : 2003-05-16 20:00 UT
+         Calibration Interval    : as needed
+         Date Removed            : 2012-06-16 21:00 UT
+         Additional Information  : (multiple lines)
+
+12.01.03 Pressure Sensor Model   : Met4
+         Manufacturer            : Paroscientific
+         Recording Interval      : four times per hour
+         Accuracy          [mbar]: 0.1
+         Height Diff to SRP   [m]: 0
+         Date Installed          : 2012-06-16 21:00 UT
+         Calibration Interval    : as needed
+         Date Removed            : (yyyy-mm-dd hh:mm UT)
+         Additional Information  : (multiple lines)
+
+12.02.01 Temp Sensor Model       : HX93c
+         Manufacturer            : Omega
+         Recording Interval      : four times per hour
+         Accuracy         [deg C]: 1
+         Date Installed          : 1996-03-27 00:00 UT
+         Calibration Interval    : as needed
+         Date Removed            : 2003-05-16 20:00 UT
+         Additional Information  : (multiple lines)
+
+12.02.02 Temp Sensor Model       : Met3
+         Manufacturer            : Paroscientific
+         Recording Interval      : four times per hour
+         Accuracy         [deg C]: 0.5
+         Date Installed          : 2003-05-16 20:00 UT
+         Calibration Interval    : as needed
+         Date Removed            : 2012-06-16 21:00 UT
+         Additional Information  : (multiple lines)
+
+12.02.03 Temp Sensor Model       : Met4
+         Manufacturer            : Paroscientific
+         Recording Interval      : four times per hour
+         Accuracy         [deg C]: 0.5
+         Date Installed          : 2012-06-16 21:00 UT
+         Calibration Interval    : as needed
+         Date Removed            : (yyyy-mm-dd hh:mm UT)
+         Additional Information  : (multiple lines)
+
+12.03.01 Humidity Sensor Model   : HX93c
+         Manufacturer            : Omega
+         Recording Interval      : four times per hour
+         Accuracy       [% rel h]: 2.0
+         Date Installed          : 1996-03-27 00:00 UT
+         Calibration Interval    : as needed
+         Date Removed            : 2003-05-16 20:00 UT
+         Additional Information  : (multiple lines)
+
+12.03.02 Humidity Sensor Model   : Met3
+         Manufacturer            : Paroscientific
+         Recording Interval      : four times per hour
+         Accuracy       [% rel h]: 2.0
+         Date Installed          : 2003-05-16 20:00 UT
+         Calibration Interval    : as needed
+         Date Removed            : 2012-06-16 21:00 UT
+         Additional Information  : (multiple lines)
+
+12.03.03 Humidity Sensor Model   : Met4
+         Manufacturer            : Paroscientific
+         Recording Interval      : four times per hour
+         Accuracy       [% rel h]: 2.0
+         Date Installed          : 2012-06-16 21:00 UT
+         Calibration Interval    : as needed
+         Date Removed            : (yyyy-mm-dd hh:mm UT)
+         Additional Information  : (multiple lines)
+
+13.   Local Ties, Eccentricities, and Collocation Information
+
+13.01 Collocated Permanent Geodetic Systems
+
+      GPS                        : IGS
+        Date Installed           : 1993-06-01
+        Date Removed             : (yyyy-mm-dd)
+        Additional Information   : 
+      GLONASS                    : NO
+        Date Installed           : (yyyy-mm-dd)
+        Date Removed             : (yyyy-mm-dd)
+        Additional Information   : (multiple lines)
+      DORIS                      : NO
+        Date Installed           : (yyyy-mm-dd)
+        Date Removed             : (yyyy-mm-dd)
+        Additional Information   : (multiple lines)
+      PRARE                      : NO
+        Date Installed           : (yyyy-mm-dd)
+        Date Removed             : (yyyy-mm-dd)
+        Additional Information   : (multiple lines)
+      VLBI                       : YES
+        Date Installed           : see additional info.
+        Date Removed             : (yyyy-mm-dd)
+        Additional Information   : (multiple lines)
+                                 : Harvard dish was in place when MLRS was
+                                 : built. Replaced by VLA dish sometime later
+                                 : (mid 1980's?).
+                                 : Collocation with NASA mobile VLBI
+                                 : station MV-4, started 1988-11
+      Gravimeter                 : NO
+        Date Installed           : (yyyy-mm-dd)
+        Date Removed             : (yyyy-mm-dd)
+        Additional Information   : Gravimeter visit to McDonald 2.7m in 
+                                 : 1970s
+
+13.02.xx Local Ties from the SRP to Other Monuments or Systems on Site
+  
+         Monument Name           :
+         Instrumentation Type    : (GPS/GLONASS/DORIS/PRARE/SLR/VLBI/NONE)
+         Instrumentation Status  : (PERMANENT/MOBILE)
+         DOMES Number            : (XXXXXXXXX)
+         CDP Number              : (XXXX)
+         Differential Components (ITRS)
+           dx                 [m]: (m +- m)
+           dy                 [m]: (m +- m)
+           dz                 [m]: (m +- m)
+           Date Measured         : (yyyy-mm-dd)
+           Determined by         :
+         Date Installed          : (yyyy-mm-dd)
+         Date Removed            : (yyyy-mm-dd)
+         Additional Information  : (multiple lines)
+
+13.03.01 Eccentricities Between Other Monuments on Site 
+
+         From: Monument Name     : MLRS Mark 7080 1988
+               DOMES Number      : 40442M006
+               CDP Number        : 7080
+         To:   Monument Name     : GPS Mark 4011-S
+               DOMES Number      : 40442M012
+               CDP Number        : (XXXX)
+         Differential Components (ITRS)
+           dx                 [m]: 22.3961 +- 0.001
+           dy                 [m]: 8.4818 +- 0.001
+           dz                 [m]: 23.4043 +- 0.001
+           Date Measured         : 2013-02-01
+           Determined by         : ATSC
+         Additional Information  : Tubro Rogue antenna platform
+
+13.03.02 Eccentricities Between Other Monuments on Site 
+
+         From: Monument Name     : MLRS Mark 7080 1988 
+               DOMES Number      : 40442M006
+               CDP Number        : 7080
+         To:   Monument Name     : VLBA antenna reference point
+               DOMES Number      : 40442S017
+               CDP Number        : 7613
+         Differential Components (ITRS)
+           dx                 [m]:  6011.9422 +- 0.010
+           dy                 [m]: -3780.0988 +- 0.012
+           dz                 [m]: -4518.3196 +- 0.010
+           Date Measured         : 2013-02-01
+           Determined by         : ATSC
+         Additional Information  : No value on record for installation 
+
+13.03.03 Eccentricities Between Other Monuments on Site 
+
+         From: Monument Name     : MLRS Mark 7080 1988 
+               DOMES Number      : 40442M006
+               CDP Number        : 7080
+         To:   Monument Name     : 85-foot VLBI ref. point (HRAS 085)
+               DOMES Number      : 40442S003
+               CDP Number        : 7216
+         Differential Components (ITRS)
+           dx                 [m]: 5810.066 +- 0.010
+           dy                 [m]: -3621.343 +- 0.012
+           dz                 [m]: -4362.423 +- 0.010
+           Date Measured         : 1999-06-01
+           Determined by         : ATSC
+         Additional Information  : (multiple lines)
+
+13.03.04 Eccentricities Between Other Monuments on Site 
+
+         From: Monument Name     : MLRS Mark 7080 1988
+               DOMES Number      : 40442M006
+               CDP Number        : 7080
+         To:   Monument Name     : Mobile VLBI and SLR Mark 7850 1988
+               DOMES Number      : 40442M008
+               CDP Number        : 7850
+         Differential Components (ITRS)
+           dx                 [m]: 12.8749 +- 0.001
+           dy                 [m]: 10.2780 +- 0.001
+           dz                 [m]: 21.9217 +- 0.001
+           Date Measured         : 2013-02-01
+           Determined by         : ATSC
+         Additional Information  : (multiple lines)
+
+13.03.05 Eccentricities Between Other Monuments on Site 
+
+         From: Monument Name     : MLRS Mark 7080 1988
+               DOMES Number      : 40442M006
+               CDP Number        : 7080
+         To:   Monument Name     : SLR Mark 7851
+               DOMES Number      : 40442M011
+               CDP Number        : 7851
+         Differential Components (ITRS)
+           dx                 [m]: 11.5993 +- 0.001
+           dy                 [m]: 10.8975 +- 0.001
+           dz                 [m]: 22.4327 +- 0.001
+           Date Measured         : 2013-02-01
+           Determined by         : ATSC
+         Additional Information  : (multiple lines)
+
+13.03.06 Eccentricities Between Other Monuments on Site 
+
+         From: Monument Name     : MLRS Mark 7080 1988 
+               DOMES Number      : 40442M006
+               CDP Number        : 7080
+         To:   Monument Name     : LLR McDonald 2
+               DOMES Number      : 40442S002
+               CDP Number        : 7206
+         Differential Components (ITRS)
+           dx                 [m]: -760.232 +- 0.003
+           dy                 [m]: -353.791 +- 0.007
+           dz                 [m]: -783.181 +- 0.005
+           Date Measured         : 1999-06-01
+           Determined by         : ATSC
+         Additional Information  : (multiple lines)
+
+13.03.07 Eccentricities Between Other Monuments on Site 
+
+         From: Monument Name     : MLRS Mark 7080 1988 
+               DOMES Number      : 40442M006
+               CDP Number        : 7080
+         To:   Monument Name     : MLRS, McDonald, TLRS-1 standard NASA disk
+               DOMES Number      : 40442M001/40222M005
+               CDP Number        : 7086/7885
+         Differential Components (ITRS)
+           dx                 [m]: -104.329 +- 0.001
+           dy                 [m]: -124.770 +- 0.001
+           dz                 [m]: -330.563 +- 0.001
+           Date Measured         : 1999-06-01
+           Determined by         : ATSC
+         Additional Information  : DOMES 40442M001 and 40222M005
+                                 : refer to the same marker
+                                 : CDP number 7086 and 7885
+                                 : also refer to the same marker
+
+13.03.08 Eccentricities Between Other Monuments on Site 
+
+         From: Monument Name     : MLRS Mark 7080 1988
+               DOMES Number      : 40442M006
+               CDP Number        : 7080
+         To:   Monument Name     : Mobile VLBI mark (Harvard RM 5 1977)
+               DOMES Number      : 40442M009
+               CDP Number        : 7900
+         Differential Components (ITRS)
+           dx                 [m]:  5793.092 +- 0.010
+           dy                 [m]: -3661.249 +- 0.012
+           dz                 [m]: -4457.763 +- 0.010
+           Date Measured         : 1999-06-01
+           Determined by         : ATSC
+         Additional Information  : (multiple lines)
+
+13.03.09 Eccentricities Between Other Monuments on Site 
+
+         From: Monument Name     : MLRS Mark 7080 1988
+               DOMES Number      : 40442M006
+               CDP Number        : 7080
+         To:   Monument Name     : SLR Mark 7897
+               DOMES Number      : 40442M010
+               CDP Number        : 7897
+         Differential Components (ITRS)
+           dx                 [m]: -779.689 +- 0.003
+           dy                 [m]: -322.840 +- 0.007
+           dz                 [m]: -776.535 +- 0.005
+           Date Measured         : 1999-06-01
+           Determined by         : ATSC
+         Additional Information  : NAIL IN PAVEMENT, used
+                                 : for TLRS-1 
+
+
+14.   Local Events Possibly Affecting Computed Position
+
+14.xx Date                       : (yyyy-mm-dd hh:mm UT)
+      Event                      : (EARTHQUAKE/CONSTRUCTION/etc)
+      Additional Information     : (multiple lines)
+
+
+15.   On-Site, Point of Contact Agency Information
+
+      Agency                     : MLRS/ McDonald Observatory
+      Mailing Address            : 9 Lunar Cir
+                                 : McDonald Obs
+                                 : TX 79734, USA
+      Primary Contact
+        Contact Name             : Jerry Wiant
+        Telephone (primary)      : (432) 426-3668
+        Telephone (secondary)    : (432) 426-3263
+        Fax                      : NA
+        E-mail                   : jerryrw@utexas.edu
+      Secondary Contact
+        Contact Name             : Peter Shelus
+        Telephone (primary)      : (512) 497-6250
+        Telephone (secondary)    : (512) 471-5573
+        Fax                      : (512) 232-2443
+        E-mail                   : pjs@csr.utexas.edu
+      Additional Information     : (multiple lines)
+
+
+16.   Responsible Agency (if different from 15.)
+
+       Agency                     : NASA, Code 453
+       Mailing Address            : Code 453
+                                  : NASA/GSFC
+                                  : Greenbelt, MD 20771 USA
+       Primary Contact
+         Contact Name             : Dave McCormick
+         Telephone (primary)      : 301-286-2354
+         Telephone (secondary)    : 301-377-2711
+         Fax                      : 301-286-0328
+         E-mail                   : David.R.McCormick@nasa.gov
+       Secondary Contact
+         Contact Name             : Curtis Emerson
+         Telephone (primary)      : 301-286-7670
+         Telephone (secondary)    : 301-286-3065
+         Fax                      : 301-286-0328
+         E-mail                   : Curtis.M.Emerson@nasa.gov
+       Additional Information     : (multiple lines)
+
+
+17.   More Information
+
+      URL for More Information   : http://www.csr.utexas.edu/mlrs/mlrs.html
+      Hardcopy on File
+        Site Map                 : YES
+        Site Diagram             : YES
+        Horizon Mask             : YES
+        Monument Description     : YES
+        Site Pictures            : YES
+      Additional Information     : (multiple lines)
