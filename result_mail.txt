@@ -1,0 +1,99 @@
+date#####mail_number#####code_station#####subject
+ 2016-11-08 ##### 2416 ##### **** ##### Re: [SLR-Mail] No.2415: 7810 ZIML: Zimmerwald SLR down
+ 2016-11-08 ##### 2415 ##### 7810 ##### 7810 ZIML: Zimmerwald SLR down
+ 2016-08-08 ##### 2404 ##### 7080 ##### 7080 MDOL down
+ 2016-08-08 ##### 2403 ##### **** ##### MLRS (MDOL) down
+ 2016-08-01 ##### 2398 ##### **** ##### Re: [SLR-Mail] No.2396: Yarragadee/MOBLAS-5 down
+ 2016-08-01 ##### 2397 ##### **** ##### MOBLAS-6 down
+ 2016-08-01 ##### 2396 ##### **** ##### Yarragadee/MOBLAS-5 down
+ 2016-06-27 ##### 2387 ##### 7840 ##### 7840 HERL telescope failure
+ 2016-01-20 ##### 2366 ##### **** ##### Moblas-6 shut down
+ 2016-01-18 ##### 2363 ##### **** ##### Re: [SLR-Mail] No.2362: 7841 POT3 System down
+ 2016-01-18 ##### 2362 ##### 7841 ##### 7841 POT3 System down
+ 2015-12-01 ##### 2346 ##### **** ##### Re: [SLR-Mail] No.2345: 7810 ZIML: Zimmerwald SLR down
+ 2015-12-01 ##### 2345 ##### 7810 ##### 7810 ZIML: Zimmerwald SLR down
+ 2014-11-10 ##### 2279 ##### 7810 ##### 7810 ZIML: Zimmerwald SLR down
+ 2014-08-06 ##### 2265 ##### 7841 ##### 7841 POT3 down
+ 2014-07-14 ##### 2257 ##### 7810 ##### 7810 ZIML: Zimmerwald SLR down
+ 2014-07-09 ##### 2254 ##### **** ##### CDDIS server problems
+ 2014-06-24 ##### 2252 ##### **** ##### Re: MLRO down
+ 2014-06-23 ##### 2251 ##### **** ##### Re: MLRO down
+ 2014-06-23 ##### 2250 ##### **** ##### MLRO down
+ 2014-05-09 ##### 2239 ##### **** ##### Analysis computer failure (again) at Hitotsubashi University
+ 2014-04-17 ##### 2229 ##### **** ##### CDDIS server problems
+ 2014-02-04 ##### 2219 ##### **** ##### Analysis computer failure at Hitotsubashi Univesity
+ 2013-09-20 ##### 2196 ##### 7105 ##### Greenbelt (7105) down for scheduled maintenance September 23
+ 2013-08-16 ##### 2190 ##### 2013 ##### Possible intermittent network problems at CDDIS -- August 20, 2013
+ 2013-07-30 ##### 2185 ##### **** ##### MOBLAS5-Yarragadee down
+ 2013-07-26 ##### 2183 ##### **** ##### MLRO down and support request
+ 2013-06-17 ##### 2174 ##### 7810 ##### 7810 ZIML: Zimmerwald SLR down
+ 2012-12-26 ##### 2139 ##### 7090 ##### 7090 YARL: Yarragadee SLR down
+ 2012-10-31 ##### 2128 ##### 7810 ##### 7810 ZIML: Zimmerwald SLR down
+ 2012-10-29 ##### 2125 ##### **** ##### Shutdown of CDDIS due to Hurricane Sandy
+ 2012-06-30 ##### 2097 ##### **** ##### CDDIS servers down
+ 2011-10-07 ##### 2022 ##### **** ##### TLRS-3 Engineering Changes and Station down time
+ 2010-05-27 ##### 1870 ##### **** ##### MLRO PMT problem
+ 2010-04-01 ##### 1855 ##### 7810 ##### 7810 ZIML: Zimmerwald SLR down
+ 2010-03-06 ##### 1843 ##### 7405 ##### 7405 CONL down after earthquake
+ 2010-03-06 ##### 1842 ##### 1831 ##### 1831 LVIL Lviv SLR down
+ 2009-12-23 ##### 1824 ##### 7810 ##### 7810 ZIML: Zimmerwald SLR down
+ 2009-12-23 ##### 1822 ##### **** ##### CDDIS system problems
+ 2009-12-10 ##### 1816 ##### 7810 ##### 7810 ZIML: Zimmerwald SLR down
+ 2009-12-08 ##### 1815 ##### 7405 ##### 7405 CONL: TIGO-SLR down
+ 2009-04-20 ##### 1767 ##### **** ##### Power shut down on next Wednesday
+ 2008-12-30 ##### 1742 ##### **** ##### MLRO down
+ 2008-12-12 ##### 1736 ##### **** ##### San Fernando SLR station down until end of Jan 09
+ 2008-11-10 ##### 1731 ##### 7405 ##### 7405 CONL: time bias problem for CONL data
+ 2008-11-06 ##### 1728 ##### **** ##### 7839 GRZL   Graz SLR Station down from 10. Nov. - 01. Dez. 2008
+ 2008-05-02 ##### 1665 ##### **** ##### HTSI Data Computer failure
+ 2008-04-05 ##### 1655 ##### 7405 ##### 7405 TIGO offline due to ET problems
+ 2008-04-01 ##### 1653 ##### 1831 ##### 1831 LVIL Lviv SLR down
+ 2008-03-22 ##### 1651 ##### **** ##### CDDIS downtime for this Saturday, March 22, 2008
+ 2008-02-07 ##### 1644 ##### **** ##### Zimmerwald SLR down
+ 2007-12-14 ##### 1628 ##### 7119 ##### 7119 HA4T Telescope control failure
+ 2007-08-27 ##### 1593 ##### **** ##### DGFI Mail Server was down
+ 2007-06-15 ##### 1561 ##### **** ##### Networking problems at HTSI
+ 2007-06-02 ##### 1554 ##### **** ##### Networking problems at GSFC/CDDIS on June 2
+ 2007-05-17 ##### 1550 ##### **** ##### Continued problems with CDDIS
+ 2007-05-09 ##### 1549 ##### **** ##### CDDIS server down
+ 2006-05-18 ##### 1464 ##### **** ##### Scheduled downtime at CDDIS on May 23
+ 2006-03-22 ##### 1449 ##### **** ##### Update to CDDIS scheduled downtime
+ 2006-03-20 ##### 1447 ##### **** ##### Scheduled CDDIS server downtime
+ 2005-11-28 ##### 1411 ##### 7405 ##### 7405 TIGO down
+ 2005-11-11 ##### 1409 ##### 7405 ##### 7405 TIGO down
+ 2005-10-11 ##### 1398 ##### **** ##### Fwd: [DORISMail] No 0414 : Cryosat launch failure
+ 2005-02-25 ##### 1305 ##### 7405 ##### 7405 TIGO down due to oscillator failure
+ 2004-11-18 ##### 1278 ##### **** ##### TOPEX DORIS system failure
+ 2004-11-05 ##### 1275 ##### **** ##### Power problems at HTSI
+ 2004-10-14 ##### 1269 ##### 7124 ##### 7124 THTL station down due to final double pass laser head cable
+ 2004-09-27 ##### 1258 ##### **** ##### MLRO down
+ 2004-09-17 ##### 1255 ##### **** ##### GMSL: Tanageshima system failure
+ 2004-09-13 ##### 1252 ##### **** ##### NERC Space Geodesy Facility downtime
+ 2004-07-13 ##### 1234 ##### **** ##### CDDIS server problems
+ 2004-02-20 ##### 1190 ##### **** ##### E-Mail Server down at EDC (Feb. 18 and 19)
+ 2004-01-21 ##### 1176 ##### **** ##### Network problems at NASA GSFC
+ 2003-11-10 ##### 1149 ##### **** ##### One EDC machine was down
+ 2003-10-15 ##### 1142 ##### **** ##### ILRS workshop: WWW Server is currently down
+ 2003-10-01 ##### 1135 ##### 7810 ##### 7810 ZIML: System down: Laser damaged
+ 2003-09-23 ##### 1131 ##### 8834 ##### 8834 WETL shutdown
+ 2003-09-18 ##### 1129 ##### **** ##### CDDIS Computer Facility Shutdown
+ 2003-07-10 ##### 1101 ##### **** ##### WLRS calibration problem (addendum)
+ 2003-07-09 ##### 1099 ##### **** ##### WLRS calibration problem resolved
+ 2003-06-30 ##### 1097 ##### 7824 ##### San Fernando (7824) down again
+ 2003-06-10 ##### 1095 ##### **** ##### Email problems at GSFC
+ 2003-06-06 ##### 1093 ##### **** ##### WLRS calibration problem
+ 2003-06-04 ##### 1092 ##### **** ##### MLRO down
+ 2003-04-14 ##### 1073 ##### **** ##### Herstmonceux SLR station down
+ 2003-03-30 ##### 1072 ##### **** ##### Herstmonceux SLR down: mains power failure
+ 2001-09-01 #####  813 ##### **** ##### Network failure at Herstmonceux
+ 2001-08-10 #####  797 ##### **** ##### Network problems at HTSI operations center
+ 2001-01-31 #####  728 ##### **** ##### UK internet routing problem
+ 2000-06-21 #####  619 ##### **** ##### International Workshop problems
+ 2000-05-05 #####  602 ##### **** ##### Intermittent problems with host cddisa.gsfc.nasa.gov
+ 1999-09-07 #####  437 ##### **** ##### Herstmonceux MAIL problem
+ 1999-01-15 #####  217 ##### **** ##### ATSC computer scheduled down time (rev 1
+ 1998-08-21 #####  147 ##### **** ##### Shutdown of CDDIS Computer on August 21
+ 1998-08-04 #####  144 ##### **** ##### Breakdown of EDC Computer (Network)
+ 1998-07-21 #####  135 ##### **** ##### Zimmerwald down
+ 1996-06-18 #####   19 ##### **** ##### Reply to SLR mail No.0018 : Temporary shutdown of 8834
+ 1996-06-17 #####   18 ##### 8834 ##### Temporary shutdown of 8834
